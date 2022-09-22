@@ -46,13 +46,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void btnVendedorActivity() {
 
-        startActivity(new Intent(MainActivity.this, CadVend.class));
+        startActivity(new Intent(MainActivity.this, AutenVend.class));
 
     }
 
     private void btnCompradorActivity() {
 
-        startActivity(new Intent(MainActivity.this, Vendas.class));
+        startActivity(new Intent(MainActivity.this, PainelC.class));
     }
 
 

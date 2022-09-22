@@ -14,16 +14,19 @@
         android:theme="@style/Theme.JavaECommerceConsole"
         tools:targetApi="31">
         <activity
+            android:name=".Compras"
+            android:exported="false" />
+        <activity
             android:name=".AutenVend"
             android:exported="false" />
         <activity
-            android:name=".Produto"
+            android:name=".PainelV"
             android:exported="false" />
         <activity
             android:name=".CadVend"
             android:exported="false" />
         <activity
-            android:name=".Vendas"
+            android:name=".PainelC"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

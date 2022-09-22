@@ -12,4 +12,6 @@
     <string name="cadastrar">Cadastrar</string>
     <string name="digite_o_seu_nome">Digite o seu nome</string>
     <string name="digite_seu_email">Digite seu email</string>
+    <string name="autenticacao">AUTENTICAÇÃO</string>
+    <string name="logar">Logar</string>
 </resources>
