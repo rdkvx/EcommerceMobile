@@ -10,13 +10,15 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="215dp"
-        android:layout_height="43dp"
+        android:layout_height="0dp"
         android:layout_marginTop="100dp"
+        android:layout_marginBottom="120dp"
         android:text="@string/seu_e_commerce"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnVendedor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,9 +26,10 @@
     <Button
         android:id="@+id/btnComprador"
         android:layout_width="237dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="72dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="283dp"
         android:text="@string/comprador"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnVendedor" />
@@ -34,9 +37,10 @@
     <Button
         android:id="@+id/btnVendedor"
         android:layout_width="237dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="120dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="72dp"
         android:text="@string/vendedor"
+        app:layout_constraintBottom_toTopOf="@+id/btnComprador"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -45,14 +49,11 @@
         android:id="@+id/textView2"
         android:layout_width="28dp"
         android:layout_height="32dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="123dp"
         android:text="@string/v1_0"
         android:textSize="11sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComprador"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

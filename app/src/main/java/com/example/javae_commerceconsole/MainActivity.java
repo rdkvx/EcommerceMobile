@@ -7,12 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 public class MainActivity extends AppCompatActivity {
 
-
-    private Button btnVedendor, btnComprador;
-
+    private Button btnVendedor, btnComprador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        btnVedendor = (Button) findViewById(R.id.btnVendedor);
+        btnVendedor = (Button) findViewById(R.id.btnVendedor);
         btnComprador = (Button) findViewById(R.id.btnComprador);
 
 
-        btnVedendor.setOnClickListener(new View.OnClickListener() {
+        btnVendedor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

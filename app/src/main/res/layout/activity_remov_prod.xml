@@ -4,44 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PainelC">
+    tools:context=".RemovProd">
 
-    <Button
-        android:id="@+id/btnCompra"
+    <TextView
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="203dp"
-        android:text="REALIZAR COMPRA"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="240dp"
+        android:text="Info"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnEnvioCompr"
+        android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="48dp"
-        android:text="CHECAR ENVIOS"
-        app:layout_constraintStart_toStartOf="@+id/btnCompra"
-        app:layout_constraintTop_toBottomOf="@+id/btnCompra" />
-
-    <Button
-        android:id="@+id/btnListProd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="LISTAR TODOS OS PRODUTOS"
+        android:layout_marginBottom="157dp"
+        android:text="Remover Produto"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEnvioCompr" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:hint="Código do produto"
+        android:inputType="number"
+        android:selectAllOnFocus="false"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView15" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="PAINEL DO COMPRADOR"
+        android:text="PAINEL DE PRODUTOS"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"

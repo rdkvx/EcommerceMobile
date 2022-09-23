@@ -14,6 +14,29 @@
         android:theme="@style/Theme.JavaECommerceConsole"
         tools:targetApi="31">
         <activity
+            android:name=".EnvioCompr"
+            android:exported="false" />
+        <activity
+            android:name=".ListProd"
+            android:exported="false"
+            android:label="@string/title_activity_list_prod"
+            android:theme="@style/Theme.JavaECommerceConsole.NoActionBar" />
+        <activity
+            android:name=".VendEfet"
+            android:exported="false" />
+        <activity
+            android:name=".Envios"
+            android:exported="false" />
+        <activity
+            android:name=".RemovProd"
+            android:exported="false" />
+        <activity
+            android:name=".CadProd"
+            android:exported="false" />
+        <activity
+            android:name=".Produtos"
+            android:exported="false" />
+        <activity
             android:name=".Compras"
             android:exported="false" />
         <activity
