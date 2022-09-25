@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.javae_commerce">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JavaECommerce"
+        tools:targetApi="31">
+        <activity
+            android:name=".EnvioCompr"
+            android:exported="false" />
+        <activity
+            android:name=".ListProd"
+            android:exported="false"
+            android:label="@string/title_activity_list_prod"
+            android:theme="@style/Theme.JavaECommerce.NoActionBar" />
+        <activity
+            android:name=".VendEfet"
+            android:exported="false" />
+        <activity
+            android:name=".Envios"
+            android:exported="false" />
+        <activity
+            android:name=".RemovProd"
+            android:exported="false" />
+        <activity
+            android:name=".CadProd"
+            android:exported="false" />
+        <activity
+            android:name=".Produtos"
+            android:exported="false" />
+        <activity
+            android:name=".Compras"
+            android:exported="false" />
+        <activity
+            android:name=".AutenVend"
+            android:exported="false" />
+        <activity
+            android:name=".PainelV"
+            android:exported="false" />
+        <activity
+            android:name=".CadVend"
+            android:exported="false" />
+        <activity
+            android:name=".PainelC"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

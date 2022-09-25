@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_auten_vend.xml" value="0.3458333333333333" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_cadProd.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_cad_prod.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_cad_vend.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_compras.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_envio_compr.xml" value="0.35" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_envios.xml" value="0.35" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_list_prod.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_main.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_painelc.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_painelv.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_produto.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_produtos.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_remov_prod.xml" value="0.35" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_vend_efet.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/activity_vendas.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/content_list_prod.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/fragment_first.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aname/AndroidStudioProjects/JavaECommerce/app/src/main/res/layout/fragment_second.xml" value="0.3651041666666667" />
+        <entry key="..\:/_Projetos/JavaE-Commerce/app/src/main/res/layout/activity_list_prod.xml" value="0.31354166666666666" />
+        <entry key="..\:/_Projetos/JavaE-CommerceConsole/app/src/main/res/layout/activity_auten_vend.xml" value="0.3770833333333333" />
+        <entry key="..\:/_Projetos/JavaE-CommerceConsole/app/src/main/res/layout/activity_cad_prod.xml" value="0.3770833333333333" />
+        <entry key="..\:/_Projetos/JavaE-CommerceConsole/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3775" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

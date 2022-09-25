@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JavaE-Commerce</string>
+    <string name="seu_e_commerce">Seu e-commerce</string>
+    <string name="vendedor">Acessar Painel do Vendedor</string>
+    <string name="comprador">Acessar Painel do Comprador</string>
+    <string name="digite_o_seu_email">Digite o seu email</string>
+    <string name="digite_a_sua_senha">Digite a sua senha</string>
+
+    <string name="criar_conta">Criar conta</string>
+    <string name="v1_0">v1.0</string>
+    <string name="cadastro_do_vendedor">CADASTRO DO VENDEDOR</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="digite_o_seu_nome">Digite o seu nome</string>
+    <string name="digite_seu_email">Digite seu email</string>
+    <string name="autenticacao">AUTENTICAÇÃO</string>
+    <string name="logar">Logar</string>
+    <string name="title_activity_list_prod">ListProd</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
