@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">JavaE-CommerceConsole</string>
+    <string name="app_name">JavaE-Commerce</string>
     <string name="seu_e_commerce">Seu e-commerce</string>
     <string name="vendedor">Acessar Painel do Vendedor</string>
     <string name="comprador">Acessar Painel do Comprador</string>

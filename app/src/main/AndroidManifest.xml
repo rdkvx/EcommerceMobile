@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.javae_commerceconsole">
+    package="com.example.javae_commerce">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.JavaECommerceConsole"
+        android:theme="@style/Theme.JavaECommerce"
         tools:targetApi="31">
         <activity
             android:name=".EnvioCompr"
@@ -20,7 +20,7 @@
             android:name=".ListProd"
             android:exported="false"
             android:label="@string/title_activity_list_prod"
-            android:theme="@style/Theme.JavaECommerceConsole.NoActionBar" />
+            android:theme="@style/Theme.JavaECommerce.NoActionBar" />
         <activity
             android:name=".VendEfet"
             android:exported="false" />
