@@ -15,6 +15,7 @@ public class compraServices {
     public venda comprar(ArrayList<venda> produtos,String nmProduto, int qtdProduto){
         venda vendaNova = new venda();
 
+        
         int indiceVnd1 = vendaNova.verificaProduto(produtos, nmProduto);
         if (indiceVnd1 == -1){
             return vendaNova;
