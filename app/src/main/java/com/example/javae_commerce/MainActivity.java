@@ -1,15 +1,20 @@
 package com.example.javae_commerce;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button btnVendedor, btnComprador;
+    ArrayList<com.example.javae_commerce.Entities.venda> produtos = new ArrayList(); //LISTA QUE PERSISTIRÁ TODOS OS PRODUTOS CADASTRADOS.
+    ArrayList<com.example.javae_commerce.Entities.venda> vendas = new ArrayList(); //LISTA QUE PERSISTIRÁ TODAS AS COMPRAS E VENDAS CADASTRADAS.
+    ArrayList<com.example.javae_commerce.Entities.funcionario> funcionarios = new ArrayList(); //LISTA QUE PERSISTIRÁ TODOS OS FUNCIONARIOS.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -11,6 +11,4 @@ import Services.utilidades;
  */
 public interface pessoa {
     public void cadastroFuncionario();
-    
-    
 }
