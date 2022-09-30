@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/formCadastroCodProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="66dp"
@@ -34,46 +34,46 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/formCadastroValorProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
         android:ems="10"
         android:hint="Valor do produto"
         android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintStart_toStartOf="@+id/formCadastroNmProduto"
+        app:layout_constraintTop_toBottomOf="@+id/formCadastroNmProduto" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/formCadastroQtdProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:ems="10"
         android:hint="Quantidade em estoque"
         android:inputType="number"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+        app:layout_constraintStart_toStartOf="@+id/formCadastroValorProduto"
+        app:layout_constraintTop_toBottomOf="@+id/formCadastroValorProduto" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/formCadastroNmProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:ems="10"
         android:hint="Nome do produto"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintStart_toStartOf="@+id/formCadastroCodProduto"
+        app:layout_constraintTop_toBottomOf="@+id/formCadastroCodProduto" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnCadastroProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="61dp"
         android:text="@string/cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/formCadastroQtdProduto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

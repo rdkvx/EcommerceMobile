@@ -7,7 +7,7 @@
     tools:context=".EnvioCompr">
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/textEnvioPendente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -17,11 +17,11 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView27"
-        app:layout_constraintStart_toStartOf="@+id/textView27" />
+        app:layout_constraintBottom_toTopOf="@+id/txtProdutoPendente"
+        app:layout_constraintStart_toStartOf="@+id/txtProdutoPendente" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/txtProdutoPendente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/txtProdutoRealizado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/txtProdutoEnviado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -53,8 +53,8 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView22"
-        app:layout_constraintStart_toStartOf="@+id/textView22" />
+        app:layout_constraintBottom_toTopOf="@+id/txtProdutoRealizado"
+        app:layout_constraintStart_toStartOf="@+id/txtProdutoRealizado" />
 
     <TextView
         android:id="@+id/textView19"

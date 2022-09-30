@@ -35,11 +35,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/txtInfoProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
         android:text="Info"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textView21"

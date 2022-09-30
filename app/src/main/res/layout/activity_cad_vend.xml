@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editNome"
+        android:id="@+id/formCadastroNmUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="151dp"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editEmail"
+        android:id="@+id/formUserEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -46,8 +46,8 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="#757575"
-        app:layout_constraintStart_toStartOf="@+id/editNome"
-        app:layout_constraintTop_toBottomOf="@+id/editNome" />
+        app:layout_constraintStart_toStartOf="@+id/formCadastroNmUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/formCadastroNmUsuario" />
 
     <Button
         android:id="@+id/btnCadVend"
@@ -57,6 +57,6 @@
         android:text="@string/cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/formUserEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

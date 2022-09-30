@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nomeDoSistema"
         android:layout_width="215dp"
         android:layout_height="0dp"
         android:layout_marginTop="100dp"
@@ -43,7 +43,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnComprador"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/nomeDoSistema" />
 
     <TextView
         android:id="@+id/textView2"

@@ -7,7 +7,7 @@
     tools:context=".Envios">
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/txtEnviosPendentesV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnRealizaEnvio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="178dp"

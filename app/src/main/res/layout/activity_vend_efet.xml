@@ -7,7 +7,7 @@
     tools:context=".VendEfet">
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/infoPainelVendas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/txtPainelVendas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
