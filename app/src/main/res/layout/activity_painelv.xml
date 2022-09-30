@@ -6,41 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".PainelV">
 
-    <Button
-        android:id="@+id/btnCadProd"
-        android:layout_width="231dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="48dp"
-        android:text="CADASTRAR PRODUTO"
-        app:layout_constraintBottom_toTopOf="@+id/btnVendasEfetuadas"
-        app:layout_constraintEnd_toEndOf="@+id/btnVendasEfetuadas"
-        app:layout_constraintStart_toStartOf="@+id/btnVendasEfetuadas"
-    />
-
 
     <Button
         android:id="@+id/btnVendasEfetuadas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="56dp"
         android:text="VENDAS EFETUADAS"
-        app:layout_constraintBottom_toTopOf="@+id/btnChecarProduto"
-        app:layout_constraintEnd_toEndOf="@+id/btnChecarProduto"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="@+id/btnChecarProduto"
-    />
+        app:layout_constraintStart_toStartOf="@+id/btnCadProd"
+        app:layout_constraintTop_toBottomOf="@+id/btnCadProd" />
 
     <Button
         android:id="@+id/btnChecarProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="340dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="17dp"
         android:text="CHECAR ENVIO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-    />
+        app:layout_constraintEnd_toEndOf="@+id/btnVendasEfetuadas"
+        app:layout_constraintTop_toBottomOf="@+id/btnVendasEfetuadas" />
 
     <TextView
         android:id="@+id/nomeDoApp"
@@ -55,5 +40,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCadProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        android:text="PAINEL DE PRODUTOS"
+        app:layout_constraintStart_toStartOf="@+id/nomeDoApp"
+        app:layout_constraintTop_toBottomOf="@+id/nomeDoApp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
