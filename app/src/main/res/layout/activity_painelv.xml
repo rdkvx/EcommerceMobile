@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="60dp"
-        android:text="PAINEL DE PRODUTOS"
+        android:text="CADASTRAR PRODUTO"
         app:layout_constraintStart_toStartOf="@+id/nomeDoApp"
         app:layout_constraintTop_toBottomOf="@+id/nomeDoApp" />
 
